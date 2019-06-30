@@ -9,10 +9,10 @@
 			],
       'conditions': [
         ['OS=="linux"', {
-            "libraries": [ "-L<!(pwd)/libpg_query/linux", "-lpg_query" ]
+            "libraries": [ "-L'<!(pwd)/libpg_query/linux'", "-lpg_query" ]
         } ],
         ['OS=="mac"', {
-          "libraries": [ "-L<!(pwd)/libpg_query/osx", "-lpg_query" ]
+          "libraries": [ "-L'<!(pwd)/libpg_query/osx'", "-lpg_query" ]
         } ],
         ['OS=="win"', { }]
       ]
