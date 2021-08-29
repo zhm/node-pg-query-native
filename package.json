@@ -17,12 +17,12 @@
     "url": "git://github.com/zhm/node-pg-query-native.git"
   },
   "devDependencies": {
-    "mocha": "^2.5.3"
+    "mocha": "^9.1.1"
   },
   "dependencies": {
     "bindings": "^1.2.1",
     "nan": "^2.3.5",
-    "node-gyp": "^3.3.1"
+    "node-gyp": "^8.2.0"
   },
   "keywords": [
     "sql",
