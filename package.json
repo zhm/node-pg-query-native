@@ -5,9 +5,9 @@
   "homepage": "http://github.com/zhm/node-pg-query-native",
   "main": "index.js",
   "scripts": {
-    "configure": "./node_modules/node-gyp/bin/node-gyp.js configure",
-    "build": "./node_modules/node-gyp/bin/node-gyp.js configure build",
-    "rebuild": "./node_modules/node-gyp/bin/node-gyp.js configure rebuild",
+    "configure": "node-gyp configure",
+    "build": "node-gyp configure build",
+    "rebuild": "node-gyp configure rebuild",
     "test": "mocha"
   },
   "author": "Zac McCormick <zac.mccormick@gmail.com> (http://github.com/zhm)",
